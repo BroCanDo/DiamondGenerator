@@ -39,7 +39,7 @@ public class Main {
             System.out.println("");
         }
 
-        for (int i = numberOfTimes + 1; i > 0; i = i - 2) {
+        for (int i = numberOfTimes + 1; i > 0; i-=2) {
             for (int x = 0; x < numberOfTimes - 1 - i / 2; x++) {
                 System.out.print(" ");
             }
